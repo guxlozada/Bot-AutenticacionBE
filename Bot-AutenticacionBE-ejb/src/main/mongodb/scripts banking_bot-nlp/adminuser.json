@@ -1,0 +1,1 @@
+{"_id":{"$oid":"597a7031ed244700d009dd7c"},"idUser":"admin","password":"admin123","name":"Hendrix","mail":"hcoral@gestorinc.com","creationDate":{"$date":"2017-07-27T22:58:57.586Z"},"lastChange":{"$date":"2017-07-27T22:58:57.586Z"},"version":{"$numberLong":"1"}}
