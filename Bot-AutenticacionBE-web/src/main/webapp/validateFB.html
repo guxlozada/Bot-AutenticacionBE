@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <title>FRED Bot Login</title>
+        <!-- Favicon-->
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <!-- Stilos WEB-->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <!-- Stilos Locales-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style_login.css">
+
+    </head>
+    <body>
+        <div class="cont">
+            <div class="demo">
+                <div class="login">
+                    <div class="login_logo">
+                        <img src="img/logo.png" width="120%" />
+                    </div>
+                    <div class="login__form">
+                        <div class="login__row">
+                            <!--Formulario de login-->
+                            <form action="authenticationFB" method="POST" >
+                                <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+                                <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+                                </svg>
+                                <input name="code" class="login__input name" placeholder="Código SMS" type="text" maxlength="6" required>
+                                <br><br>
+                                <input type="submit" class="login__submit" name="Submit" value="ACEPTAR">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
